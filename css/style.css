@@ -1,0 +1,36 @@
+html {
+    height: 100%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 1250px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ img {
+    min-width: 100%;
+    height: auto;
+}
+
+.main-content {
+    flex-grow: 1;
+}
